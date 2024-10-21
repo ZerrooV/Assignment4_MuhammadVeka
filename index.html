@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="container d-flex justify-content-end fs-5 fw-semibold">
+            <li class="p-4"><a class="text-decoration-none text-secondary" href="#">Home</a></li>
+            <li class="p-4"><a class="text-decoration-none text-secondary" href="#">Product</a></li>
+            <li class="p-4"><a class="text-decoration-none text-secondary" href="#">Gallery</a></li>
+            <li class="p-4"><a class="text-decoration-none text-secondary" href="#">Blog</a></li>
+            <li class="p-4"><a class="text-decoration-none text-secondary" href="#">Inventory</a></li>
+        </ul>
+    </nav>
+
+    <div class="profil container p-5 rounded">
+        <div class="row">
+          <div class="col text-center">
+            <img src="assets/kochenkkk.jpeg" class="img-thumbnail rounded-4" alt="...">
+          </div>
+
+          <div class="col">
+            <p class="nama fw-semibold fs-5 mt-5">Muhammad Veka Syahputra</p>
+            <p class="role text-secondary">FrontEnd Developer</p>
+
+            <div class="d-flex gap-3">
+                <button type="button" class="btn btn-primary" id="edit">Edit</button>
+                <button type="button" class="btn btn-success" id="resume">Resume</button>
+            </div>
+          </div>
+
+          <div class="col-5 d-flex gap-5">
+            <div class="info fw-semibold mt-3">
+                <p>Availability</p>
+                <p>Usia</p>
+                <p>Lokasi</p>
+                <p>Pengalaman</p>
+                <p>Email</p>
+            </div>
+            <div class="dataInfo text-secondary mt-3">
+                <p>: Full Time</p>
+                <p>: 20</p>
+                <p>: Semarang</p>
+                <p>: 1</p>
+                <p>: iniEmail@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="inputForm container mt-5 p-5 rounded">
+        <div class="mb-3">
+          <label for="nama" class="form-label fw-semibold">Nama</label>
+          <input type="text" name="Nama" class="form-control" id="nama" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="Role" class="form-label fw-semibold">Role</label>
+            <input type="text" name="Role" class="form-control" id="Role" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="Availability" class="form-label fw-semibold">Availability</label>
+            <input type="text" name="Availability" class="form-control" id="Availability" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="Age" class="form-label fw-semibold">Usia</label>
+            <input type="text" name="Age" class="form-control" id="Age" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="lokasi" class="form-label fw-semibold">Lokasi</label>
+            <input type="text" name="Lokasi" class="form-control" id="lokasi" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="YOA" class="form-label fw-semibold">Years of Experience</label>
+            <input type="text" name="YOA" class="form-control" id="YOA" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label fw-semibold">Email</label>
+            <input type="email" name="Email" class="form-control" id="email" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="submitButton">Submit</button>
+      </form>
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

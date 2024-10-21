@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(226, 234, 241);
+}
+nav {
+    background-color: rgb(255, 255, 255);
+}
+nav ul{
+    list-style-type: none;
+}
+.profil{
+    background-color: rgb(255, 255, 255);
+}
+.col img{
+    width: 70%;
+    height: auto;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+.submitButton{
+    background-color: rgb(3, 224, 59);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
